@@ -1,6 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import FragmentDemo from './components/FragmentDemo';
+import ParentComponent from './components/ParentComponent';
+import PureCompo from './components/PureCompo';
 import Table from './components/Table';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Table />
       <FragmentDemo />
+      <ParentComponent />
     </div>
   );
 }
